@@ -1,0 +1,10 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "ANYONE",
+    "executeAs": "USER_ACCESSING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
