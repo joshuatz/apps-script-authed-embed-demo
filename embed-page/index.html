@@ -111,7 +111,7 @@
             elem.addEventListener('click',function(evt){
                 var currentUrl = document.location.href;
                 var authPage = 'https://script.google.com/macros/s/AKfycbwHp1eAQhnIDADKjChun6teAEWyc3rd8VFV238gI_D-3LJ6O_Y/exec?auth=true&redirect=' + encodeURIComponent(currentUrl);
-                window.open('authPage','_blank');
+                window.open(authPage,'_blank');
             });
         });
     </script>
