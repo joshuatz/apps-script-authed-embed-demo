@@ -21,8 +21,10 @@ function doGet(e) {
     }
     else {
         // Display HTML in iframe
-        var email = Session.getActiveUser().getEmail();
-        var template = HtmlService.createTemplateFromFile('output');
+        var rawHtml = "<h1>App Script successfully loaded in iframe!</h1>"
+            + "\n"
+            + "<h2>User's email used to authorize: <?= authedEmail ?></h2>";
+        var template = HtmlService.createTemplate(rawHtml);
         template.authedEmail = email;
         return template.evaluate().setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
     }
