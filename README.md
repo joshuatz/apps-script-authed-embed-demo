@@ -1,0 +1,3 @@
+Demo to show detecting a logged out / unauthorized Google user and avoiding the X-Frame-Options error inside an iframe embed of your Google Apps Script by passing back success data and toggling an overlay.
+
+See [https://joshuatz.com/posts/2019/google-apps-script-authorization-in-a-cross-origin-iframe/](https://joshuatz.com/posts/2019/google-apps-script-authorization-in-a-cross-origin-iframe/) for full details.
