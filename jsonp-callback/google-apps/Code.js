@@ -1,3 +1,6 @@
+// @ts-check
+/// <reference path="C:/laragon/bin/nodejs/node-v12/node_modules/@types/google-apps-script/index.d.ts" />
+
 function doGet(e) {
     var email = Session.getActiveUser().getEmail();
 
